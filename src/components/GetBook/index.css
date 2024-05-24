@@ -1,0 +1,67 @@
+.bookTable{
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065) ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addButton{
+    text-decoration: none;
+    background-color: purple;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065) ;
+}
+.logOutButton{
+    background-color: rgb(51, 182, 214);
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065) ;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+.bookTable table{
+    width: 100%;
+    margin-top: 30px;
+    /* border-collapse: collapse; */
+}
+.bookTable table thead th{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+
+}
+.bookTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background-color: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editButton{
+    background-color: green;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+}
